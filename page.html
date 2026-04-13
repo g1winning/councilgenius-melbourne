@@ -1,0 +1,1177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CouncilGenius - City of Melbourne</title>
+    <style>
+        :root {
+            --primary: #0D47A1;
+            --primary-light: #1565C0;
+            --secondary: #1565C0;
+            --accent: #E65100;
+            --accent-dark: #D84315;
+            --text-dark: #0D1B2A;
+            --text-light: #424242;
+            --border-light: #E0E0E0;
+            --bg-light: #E3F2FD;
+            --white: #FFFFFF;
+            --success: #1565C0;
+            --error: #D32F2F;
+            --spacing-xs: 0.25rem;
+            --spacing-sm: 0.5rem;
+            --spacing-md: 1rem;
+            --spacing-lg: 1.5rem;
+            --spacing-xl: 2rem;
+            --spacing-2xl: 3rem;
+            --radius-sm: 4px;
+            --radius-md: 8px;
+            --radius-lg: 12px;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            color: var(--text-dark);
+            background-color: var(--bg-light);
+            line-height: 1.6;
+        }
+
+        /* Skip Link */
+        #skip-link {
+            position: absolute;
+            top: -40px;
+            left: 0;
+            background-color: var(--primary);
+            color: var(--white);
+            padding: var(--spacing-sm) var(--spacing-md);
+            text-decoration: none;
+            z-index: 100;
+            border-radius: 0 0 var(--radius-md) 0;
+        }
+
+        #skip-link:focus {
+            top: 0;
+        }
+
+        /* Header */
+        header {
+            background-color: var(--white);
+            border-bottom: 2px solid var(--primary);
+            position: sticky;
+            top: 0;
+            z-index: 50;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .header-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: var(--spacing-md) var(--spacing-lg);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .header-brand {
+            display: flex;
+            align-items: center;
+            gap: var(--spacing-md);
+        }
+
+        .header-brand h1 {
+            font-size: 1.25rem;
+            font-weight: 700;
+            color: var(--primary);
+            margin: 0;
+        }
+
+        .header-brand p {
+            font-size: 0.875rem;
+            color: var(--text-light);
+            margin: 0;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            gap: var(--spacing-lg);
+        }
+
+        nav a {
+            color: var(--text-dark);
+            text-decoration: none;
+            font-weight: 500;
+            padding: var(--spacing-sm) var(--spacing-md);
+            border-radius: var(--radius-sm);
+            transition: all 0.2s ease;
+        }
+
+        nav a:hover,
+        nav a:focus {
+            background-color: var(--primary);
+            color: var(--white);
+            outline: 2px solid transparent;
+        }
+
+        nav a:focus {
+            outline: 2px solid var(--accent);
+            outline-offset: 2px;
+        }
+
+        .menu-toggle {
+            display: none;
+            background: none;
+            border: none;
+            font-size: 1.5rem;
+            cursor: pointer;
+            color: var(--primary);
+            padding: var(--spacing-sm);
+        }
+
+        .menu-toggle:focus {
+            outline: 2px solid var(--accent);
+            outline-offset: 2px;
+        }
+
+        /* Hero Section */
+        .hero {
+            background: linear-gradient(135deg, var(--primary) 0%, var(--primary-light) 100%);
+            color: var(--white);
+            padding: var(--spacing-2xl) var(--spacing-lg);
+            text-align: center;
+        }
+
+        .hero-content {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .hero h2 {
+            font-size: 2.5rem;
+            font-weight: 700;
+            margin-bottom: var(--spacing-md);
+            line-height: 1.2;
+        }
+
+        .hero p {
+            font-size: 1.125rem;
+            margin-bottom: var(--spacing-lg);
+            opacity: 0.95;
+        }
+
+        /* Quick Services Grid */
+        .services-section {
+            max-width: 1200px;
+            margin: var(--spacing-2xl) auto;
+            padding: 0 var(--spacing-lg);
+        }
+
+        .services-section h3 {
+            font-size: 1.75rem;
+            color: var(--primary);
+            margin-bottom: var(--spacing-xl);
+            text-align: center;
+        }
+
+        .services-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+            gap: var(--spacing-md);
+        }
+
+        .service-btn {
+            background-color: var(--white);
+            border: 2px solid var(--border-light);
+            color: var(--text-dark);
+            padding: var(--spacing-lg);
+            border-radius: var(--radius-lg);
+            cursor: pointer;
+            font-weight: 600;
+            font-size: 0.95rem;
+            text-align: center;
+            transition: all 0.3s ease;
+            min-height: 120px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-decoration: none;
+        }
+
+        .service-btn:hover {
+            background-color: var(--primary);
+            color: var(--white);
+            border-color: var(--primary);
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(13, 71, 161, 0.15);
+        }
+
+        .service-btn:focus {
+            outline: 2px solid var(--accent);
+            outline-offset: 2px;
+        }
+
+        /* Chat Section */
+        .chat-section {
+            max-width: 1200px;
+            margin: var(--spacing-2xl) auto;
+            padding: 0 var(--spacing-lg);
+        }
+
+        .chat-container {
+            background-color: var(--white);
+            border-radius: var(--radius-lg);
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+            height: 500px;
+        }
+
+        .chat-header {
+            background-color: var(--primary);
+            color: var(--white);
+            padding: var(--spacing-lg);
+            font-weight: 600;
+            font-size: 1.125rem;
+        }
+
+        .chat-messages {
+            flex: 1;
+            overflow-y: auto;
+            padding: var(--spacing-lg);
+            display: flex;
+            flex-direction: column;
+            gap: var(--spacing-md);
+        }
+
+        .message {
+            display: flex;
+            margin-bottom: var(--spacing-md);
+        }
+
+        .message.bot {
+            justify-content: flex-start;
+        }
+
+        .message.user {
+            justify-content: flex-end;
+        }
+
+        .message-bubble {
+            max-width: 70%;
+            padding: var(--spacing-md) var(--spacing-lg);
+            border-radius: var(--radius-lg);
+            word-wrap: break-word;
+            overflow-wrap: break-word;
+            line-height: 1.5;
+        }
+
+        .message.bot .message-bubble {
+            background-color: var(--bg-light);
+            color: var(--text-dark);
+            border-left: 4px solid var(--primary);
+        }
+
+        .message.user .message-bubble {
+            background-color: var(--primary);
+            color: var(--white);
+        }
+
+        .message a {
+            font-weight: 600;
+            text-decoration: underline;
+        }
+
+        .message.bot a {
+            color: var(--primary);
+        }
+
+        .message.user a {
+            color: var(--accent-dark);
+        }
+
+        /* Feedback Widget */
+        .feedback-widget {
+            display: flex;
+            gap: var(--spacing-sm);
+            margin-top: var(--spacing-md);
+            padding-top: var(--spacing-md);
+            border-top: 1px solid rgba(0, 0, 0, 0.1);
+        }
+
+        .feedback-btn {
+            background-color: transparent;
+            border: 1px solid var(--border-light);
+            color: var(--text-light);
+            padding: var(--spacing-xs) var(--spacing-sm);
+            border-radius: var(--radius-sm);
+            cursor: pointer;
+            font-size: 0.8rem;
+            font-weight: 500;
+            transition: all 0.2s ease;
+        }
+
+        .feedback-btn:hover {
+            border-color: var(--primary);
+            color: var(--primary);
+        }
+
+        .feedback-btn[aria-pressed="true"] {
+            background-color: var(--primary);
+            color: var(--white);
+            border-color: var(--primary);
+        }
+
+        .suggestion-chips {
+            display: flex;
+            flex-wrap: wrap;
+            gap: var(--spacing-sm);
+            margin-bottom: var(--spacing-lg);
+        }
+
+        .chip {
+            background-color: var(--bg-light);
+            border: 1px solid var(--border-light);
+            padding: var(--spacing-sm) var(--spacing-md);
+            border-radius: 20px;
+            cursor: pointer;
+            font-size: 0.875rem;
+            color: var(--text-dark);
+            transition: all 0.2s ease;
+            white-space: nowrap;
+        }
+
+        .chip:hover {
+            background-color: var(--primary);
+            color: var(--white);
+            border-color: var(--primary);
+        }
+
+        .chip:focus {
+            outline: 2px solid var(--accent);
+            outline-offset: 2px;
+        }
+
+        /* Chat Input */
+        .chat-input-area {
+            padding: var(--spacing-lg);
+            border-top: 1px solid var(--border-light);
+            display: flex;
+            gap: var(--spacing-sm);
+        }
+
+        .input-wrapper {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .chat-input-label {
+            position: absolute;
+            left: -10000px;
+            width: 1px;
+            height: 1px;
+            overflow: hidden;
+        }
+
+        .chat-input {
+            flex: 1;
+            padding: var(--spacing-md);
+            border: 1px solid var(--border-light);
+            border-radius: var(--radius-md);
+            font-family: inherit;
+            font-size: 0.95rem;
+            resize: none;
+            max-height: 100px;
+            color: var(--text-dark);
+            transition: border-color 0.2s ease;
+        }
+
+        .chat-input:focus {
+            outline: 2px solid var(--accent);
+            outline-offset: -2px;
+            border-color: var(--primary);
+        }
+
+        .chat-input:disabled {
+            background-color: var(--bg-light);
+            color: var(--text-light);
+        }
+
+        .input-controls {
+            display: flex;
+            gap: var(--spacing-sm);
+        }
+
+        .voice-btn,
+        .send-btn {
+            padding: var(--spacing-md);
+            border: 1px solid var(--border-light);
+            background-color: var(--white);
+            color: var(--text-dark);
+            border-radius: var(--radius-md);
+            cursor: pointer;
+            font-weight: 600;
+            transition: all 0.2s ease;
+            min-width: 44px;
+            min-height: 44px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .send-btn {
+            background-color: var(--primary);
+            color: var(--white);
+            border-color: var(--primary);
+        }
+
+        .send-btn:hover:not(:disabled) {
+            background-color: var(--primary-light);
+            border-color: var(--primary-light);
+        }
+
+        .send-btn:focus {
+            outline: 2px solid var(--accent);
+            outline-offset: 2px;
+        }
+
+        .send-btn:disabled {
+            background-color: var(--border-light);
+            color: var(--text-light);
+            border-color: var(--border-light);
+            cursor: not-allowed;
+        }
+
+        .voice-btn:hover {
+            background-color: var(--secondary);
+            border-color: var(--secondary);
+            color: var(--white);
+        }
+
+        .voice-btn:focus {
+            outline: 2px solid var(--accent);
+            outline-offset: 2px;
+        }
+
+        /* Footer */
+        footer {
+            background-color: var(--primary);
+            color: var(--white);
+            padding: var(--spacing-2xl) var(--spacing-lg);
+            margin-top: var(--spacing-2xl);
+        }
+
+        .footer-content {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: var(--spacing-xl);
+        }
+
+        .footer-section h4 {
+            font-size: 1rem;
+            margin-bottom: var(--spacing-md);
+            font-weight: 600;
+        }
+
+        .footer-section p,
+        .footer-section a {
+            font-size: 0.875rem;
+            line-height: 1.8;
+            color: rgba(255, 255, 255, 0.9);
+            text-decoration: none;
+            display: block;
+            margin-bottom: var(--spacing-sm);
+        }
+
+        .footer-section a:hover,
+        .footer-section a:focus {
+            color: var(--accent);
+        }
+
+        .footer-divider {
+            border-top: 1px solid rgba(255, 255, 255, 0.2);
+            margin-top: var(--spacing-xl);
+            padding-top: var(--spacing-lg);
+        }
+
+        .acknowledgement {
+            font-style: italic;
+            color: rgba(255, 255, 255, 0.85);
+            margin-bottom: var(--spacing-md);
+        }
+
+        .powered-by {
+            text-align: center;
+            font-size: 0.8rem;
+            color: rgba(255, 255, 255, 0.7);
+            margin-top: var(--spacing-lg);
+        }
+
+        /* Mobile Responsive */
+        @media (max-width: 768px) {
+            nav ul {
+                display: none;
+                position: absolute;
+                top: 100%;
+                left: 0;
+                right: 0;
+                flex-direction: column;
+                background-color: var(--white);
+                border-bottom: 2px solid var(--primary);
+                padding: var(--spacing-md);
+                gap: var(--spacing-sm);
+                box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            }
+
+            nav ul.active {
+                display: flex;
+            }
+
+            .menu-toggle {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+
+            .header-container {
+                padding: var(--spacing-md);
+            }
+
+            .hero h2 {
+                font-size: 1.75rem;
+            }
+
+            .hero p {
+                font-size: 1rem;
+            }
+
+            .services-grid {
+                grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+            }
+
+            .service-btn {
+                padding: var(--spacing-md);
+                min-height: 100px;
+                font-size: 0.85rem;
+            }
+
+            .chat-container {
+                height: 450px;
+            }
+
+            .message-bubble {
+                max-width: 85%;
+            }
+
+            .chat-input-area {
+                flex-wrap: wrap;
+            }
+
+            .suggestion-chips {
+                gap: var(--spacing-xs);
+            }
+
+            .chip {
+                font-size: 0.8rem;
+                padding: var(--spacing-xs) var(--spacing-sm);
+            }
+
+            .footer-content {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        /* Accessibility */
+        .sr-only {
+            position: absolute;
+            width: 1px;
+            height: 1px;
+            padding: 0;
+            margin: -1px;
+            overflow: hidden;
+            clip: rect(0, 0, 0, 0);
+            white-space: nowrap;
+            border-width: 0;
+        }
+
+        @media (prefers-reduced-motion: reduce) {
+            * {
+                animation-duration: 0.01ms !important;
+                animation-iteration-count: 1 !important;
+                transition-duration: 0.01ms !important;
+            }
+        }
+
+        /* Focus visible for keyboard navigation */
+        :focus-visible {
+            outline: 2px solid var(--accent);
+            outline-offset: 2px;
+        }
+
+        /* Contrast ratio validation */
+        a:not(.service-btn):not(.chip) {
+            color: var(--primary);
+            text-decoration: underline;
+        }
+
+        a:not(.service-btn):not(.chip):visited {
+            color: #0D3A8C;
+        }
+    </style>
+</head>
+<body>
+    <a href="#main" id="skip-link">Skip to main content</a>
+
+    <header role="banner">
+        <div class="header-container">
+            <div class="header-brand">
+                <div>
+                    <h1>CouncilGenius</h1>
+                    <p>City of Melbourne</p>
+                </div>
+            </div>
+            <button class="menu-toggle" aria-label="Toggle navigation menu" aria-expanded="false">
+                <span aria-hidden="true">&#9776;</span>
+            </button>
+            <nav role="navigation" aria-label="Main navigation">
+                <ul>
+                    <li><a href="https://www.melbourne.vic.gov.au" target="_blank">Home</a></li>
+                    <li><a href="https://www.melbourne.vic.gov.au/services" target="_blank">Services</a></li>
+                    <li><a href="tel:0396589658">Contact</a></li>
+                    <li><a href="https://www.melbourne.vic.gov.au" target="_blank">Council Website</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main id="main" role="main">
+        <section class="hero" aria-label="Welcome banner">
+            <div class="hero-content">
+                <h2>Welcome to CouncilGenius</h2>
+                <p>Your guide to City of Melbourne services</p>
+            </div>
+        </section>
+
+        <section class="services-section" aria-label="Quick services">
+            <h3>Quick Services</h3>
+            <div class="services-grid">
+                <button class="service-btn" aria-label="Bins and Recycling" data-query="When are my bins collected and what goes in each bin?">Bins & Recycling</button>
+                <button class="service-btn" aria-label="Pay Rates" data-query="How do I pay my council rates online?">Pay Rates</button>
+                <button class="service-btn" aria-label="Parking Fines" data-query="How do I pay a parking fine and how do I dispute an infringement?">Parking Fines</button>
+                <button class="service-btn" aria-label="Planning Permits" data-query="How do I apply for a planning permit and what are the fees?">Planning Permits</button>
+                <button class="service-btn" aria-label="Pet Registration" data-query="How do I register my dog or cat and what are the registration fees?">Pet Registration</button>
+                <button class="service-btn" aria-label="Libraries" data-query="What are the library locations and opening hours?">Libraries</button>
+                <button class="service-btn" aria-label="Graffiti Removal" data-query="How do I report graffiti for removal?">Graffiti Removal</button>
+                <button class="service-btn" aria-label="Report an Issue" data-query="How do I report a pothole, broken footpath, or maintenance issue to council?">Report an Issue</button>
+            </div>
+        </section>
+
+        <section class="chat-section" aria-label="Chat assistant">
+            <div class="chat-container" role="complementary" aria-label="CouncilGenius chat assistant">
+                <div class="chat-header">
+                    CouncilGenius Assistant
+                </div>
+
+                <div class="chat-messages" role="log" aria-label="Chat messages" aria-live="polite" aria-atomic="false">
+                    <div class="message bot">
+                        <div class="message-bubble">
+                            <p><strong>G'day! I'm your City of Melbourne AI assistant.</strong></p>
+                            <p>I can help you with council services in a few ways:</p>
+                            <ul>
+                                <li><strong>Find information</strong> — Ask me about rates, bins, permits, pets, parks, or any council service and I'll search our knowledge base for the answer.</li>
+                                <li><strong>Get direct links</strong> — I'll point you to the exact page, form, or PDF you need on the council website — no more hunting through menus.</li>
+                                <li><strong>Understand processes</strong> — Planning a build? Registering a pet? I'll walk you through the steps, fees, and who to contact.</li>
+                            </ul>
+                            <p>Try a question below, or just type what you need.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="chat-input-area">
+                    <div class="input-wrapper">
+                        <label for="chat-input" class="chat-input-label">Type your message</label>
+                        <div class="suggestion-chips" id="suggestions" role="region" aria-label="Suggested questions">
+                            <button class="chip" aria-label="Ask about bin collection" data-query="When are my bins collected and what goes in each bin?">When is my bin collected?</button>
+                            <button class="chip" aria-label="Ask about parking fine payment" data-query="How do I pay a parking fine and how do I dispute an infringement?">How do I pay a parking fine?</button>
+                            <button class="chip" aria-label="Ask about paying rates" data-query="How do I pay my council rates online and what payment methods are accepted?">How do I pay my rates?</button>
+                            <button class="chip" aria-label="Ask about libraries" data-query="What are the library locations and opening hours?">Where are the libraries?</button>
+                            <button class="chip" aria-label="Ask about planning permits" data-query="Do I need a planning permit for building work and what are the fees?">Do I need a planning permit?</button>
+                        </div>
+                        <textarea
+                            id="chat-input"
+                            class="chat-input"
+                            placeholder="Type your question..."
+                            aria-label="Message input field"
+                            rows="1"
+                        ></textarea>
+                    </div>
+                    <div class="input-controls">
+                        <button class="voice-btn" id="voice-btn" aria-label="Start voice input" title="Speak your message">
+                            <span aria-hidden="true">🎤</span>
+                        </button>
+                        <button class="send-btn" id="send-btn" aria-label="Send message" disabled>
+                            Send
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer role="contentinfo">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>City of Melbourne</h4>
+                <p class="acknowledgement">The City of Melbourne respectfully acknowledges the Traditional Owners of the land we govern, the Wurundjeri Woi-wurrung and Bunurong / Boon Wurrung peoples of the Kulin Nation and pays respect to their Elders past and present.</p>
+            </div>
+
+            <div class="footer-section">
+                <h4>Contact</h4>
+                <a href="tel:0396589658">Phone: +61 3 9658 9658</a>
+                <a href="https://www.melbourne.vic.gov.au" target="_blank">www.melbourne.vic.gov.au</a>
+                <p style="margin-top: var(--spacing-lg);">Melbourne Town Hall, 120 Swanston Street, Melbourne. Hours 8:30am-5pm Mon-Fri</p>
+            </div>
+
+            <div class="footer-section">
+                <h4>Services</h4>
+                <a href="https://www.melbourne.vic.gov.au" target="_blank">Rates &amp; Property</a>
+                <a href="https://www.melbourne.vic.gov.au" target="_blank">Planning &amp; Building</a>
+                <a href="https://www.melbourne.vic.gov.au" target="_blank">Waste &amp; Recycling</a>
+                <a href="https://www.melbourne.vic.gov.au" target="_blank">Parking &amp; Transport</a>
+            </div>
+
+            <div class="footer-section">
+                <h4>Information</h4>
+                <a href="https://www.melbourne.vic.gov.au" target="_blank">Privacy Policy</a>
+                <a href="https://www.melbourne.vic.gov.au" target="_blank">Accessibility Statement</a>
+                <a href="https://www.melbourne.vic.gov.au" target="_blank">Site Map</a>
+            </div>
+        </div>
+
+        <div class="footer-divider">
+            <p class="powered-by">CouncilGenius V8 powered by City of Melbourne</p>
+        </div>
+    </footer>
+
+    <script>
+        // Session ID for analytics
+        const SESSION_ID = 'cg_' + Date.now() + '_' + Math.random().toString(36).substr(2, 9);
+        let conversationHistory = [];
+        let messageIdCounter = 0;
+
+        // DOM Elements
+        const chatMessages = document.querySelector('[role="log"]');
+        const chatInput = document.getElementById('chat-input');
+        const sendBtn = document.getElementById('send-btn');
+        const voiceBtn = document.getElementById('voice-btn');
+        const suggestionsContainer = document.getElementById('suggestions');
+        const menuToggle = document.querySelector('.menu-toggle');
+        const navMenu = document.querySelector('nav ul');
+        const serviceButtons = document.querySelectorAll('.service-btn');
+
+        // Auto-focus on input when chat section is visible
+        chatInput.focus();
+
+        // Enable/disable send button based on input
+        chatInput.addEventListener('input', () => {
+            sendBtn.disabled = !chatInput.value.trim();
+            autoResizeInput();
+        });
+
+        // Handle message send on Enter (Shift+Enter for newline)
+        chatInput.addEventListener('keydown', (e) => {
+            if (e.key === 'Enter' && !e.shiftKey) {
+                e.preventDefault();
+                sendMessage();
+            }
+            if (e.key === 'Escape') {
+                chatInput.value = '';
+                chatInput.blur();
+                sendBtn.disabled = true;
+            }
+        });
+
+        // Send button click
+        sendBtn.addEventListener('click', sendMessage);
+
+        // Menu toggle for mobile
+        menuToggle.addEventListener('click', () => {
+            const isExpanded = menuToggle.getAttribute('aria-expanded') === 'true';
+            menuToggle.setAttribute('aria-expanded', !isExpanded);
+            navMenu.classList.toggle('active');
+        });
+
+        // Close menu when a link is clicked
+        document.querySelectorAll('nav a').forEach(link => {
+            link.addEventListener('click', () => {
+                menuToggle.setAttribute('aria-expanded', 'false');
+                navMenu.classList.remove('active');
+            });
+        });
+
+        // Service buttons click handlers
+        serviceButtons.forEach(btn => {
+            btn.addEventListener('click', () => {
+                const query = btn.dataset.query || btn.textContent.trim();
+                chatInput.value = query;
+                sendBtn.disabled = false;
+                chatInput.focus();
+            });
+        });
+
+        // Suggestion chips
+        document.querySelectorAll('.chip').forEach(chip => {
+            chip.addEventListener('click', () => {
+                const query = chip.dataset.query || chip.textContent.trim();
+                chatInput.value = query;
+                sendBtn.disabled = false;
+                chatInput.focus();
+            });
+        });
+
+        // Voice input
+        const SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
+        if (SpeechRecognition) {
+            const recognition = new SpeechRecognition();
+            recognition.language = 'en-AU';
+
+            voiceBtn.addEventListener('click', () => {
+                recognition.start();
+                voiceBtn.disabled = true;
+                voiceBtn.setAttribute('aria-label', 'Listening...');
+            });
+
+            recognition.addEventListener('result', (event) => {
+                let transcript = '';
+                for (let i = event.resultIndex; i < event.results.length; i++) {
+                    transcript += event.results[i][0].transcript;
+                }
+                chatInput.value = transcript;
+                sendBtn.disabled = !transcript.trim();
+                autoResizeInput();
+            });
+
+            recognition.addEventListener('end', () => {
+                voiceBtn.disabled = false;
+                voiceBtn.setAttribute('aria-label', 'Start voice input');
+            });
+
+            recognition.addEventListener('error', () => {
+                voiceBtn.disabled = false;
+                voiceBtn.setAttribute('aria-label', 'Start voice input');
+            });
+        } else {
+            voiceBtn.style.display = 'none';
+        }
+
+        // Auto-resize textarea
+        function autoResizeInput() {
+            chatInput.style.height = 'auto';
+            chatInput.style.height = Math.min(chatInput.scrollHeight, 100) + 'px';
+        }
+
+        // Send message function
+        async function sendMessage() {
+            const message = chatInput.value.trim();
+            if (!message) return;
+
+            // Hide suggestions on first message
+            if (suggestionsContainer.style.display !== 'none') {
+                suggestionsContainer.style.display = 'none';
+            }
+
+            // Add user message to display
+            addMessageToUI('user', message);
+
+            // Add to conversation history
+            conversationHistory.push({
+                role: 'user',
+                content: message,
+                timestamp: new Date().toISOString()
+            });
+
+            // Clear input
+            chatInput.value = '';
+            sendBtn.disabled = true;
+            chatInput.style.height = 'auto';
+
+            // Show typing indicator
+            const typingId = 'typing_' + messageIdCounter++;
+            addTypingIndicator();
+
+            try {
+                // Call API
+                const response = await fetch('/chat', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify({
+                        messages: conversationHistory,
+                        sessionId: SESSION_ID
+                    })
+                });
+
+                // Remove typing indicator
+                const typingIndicator = document.querySelector('.typing-indicator');
+                if (typingIndicator) {
+                    typingIndicator.remove();
+                }
+
+                if (!response.ok) {
+                    throw new Error(`API error: ${response.status}`);
+                }
+
+                const data = await response.json();
+                const botMessage = data.response || 'I apologize, I could not process your request.';
+
+                // Add bot message
+                const botMessageId = 'msg_' + messageIdCounter++;
+                addMessageToUI('bot', botMessage, botMessageId);
+
+                // Add to conversation history
+                conversationHistory.push({
+                    role: 'assistant',
+                    content: botMessage,
+                    timestamp: new Date().toISOString()
+                });
+
+                // Add feedback widget
+                addFeedbackWidget(botMessageId, botMessage);
+
+            } catch (error) {
+                console.error('Error:', error);
+                const typingIndicator = document.querySelector('.typing-indicator');
+                if (typingIndicator) {
+                    typingIndicator.remove();
+                }
+
+                // Show error message
+                const errorMsg = `I apologize for the technical difficulty. Please contact City of Melbourne directly at <a href="tel:0396589658">+61 3 9658 9658</a> for immediate assistance.`;
+                addMessageToUI('bot', errorMsg);
+            }
+
+            // Re-focus on input
+            chatInput.focus();
+        }
+
+        // Add message to UI
+        function addMessageToUI(role, content, messageId = null) {
+            const msgDiv = document.createElement('div');
+            msgDiv.className = `message ${role}`;
+            if (messageId) {
+                msgDiv.id = messageId;
+            }
+
+            const bubble = document.createElement('div');
+            bubble.className = 'message-bubble';
+            bubble.innerHTML = mdToHtml(content);
+            msgDiv.appendChild(bubble);
+
+            chatMessages.appendChild(msgDiv);
+            chatMessages.scrollTop = chatMessages.scrollHeight;
+        }
+
+        // Add typing indicator
+        function addTypingIndicator() {
+            const msgDiv = document.createElement('div');
+            msgDiv.className = 'message bot';
+
+            const indicator = document.createElement('div');
+            indicator.className = 'typing-indicator';
+            indicator.setAttribute('role', 'status');
+            indicator.setAttribute('aria-live', 'polite');
+            indicator.setAttribute('aria-label', 'Assistant is typing');
+
+            indicator.innerHTML = '<div class="typing-dot"></div><div class="typing-dot"></div><div class="typing-dot"></div>';
+            msgDiv.appendChild(indicator);
+
+            chatMessages.appendChild(msgDiv);
+            chatMessages.scrollTop = chatMessages.scrollHeight;
+        }
+
+        // Add feedback widget
+        function addFeedbackWidget(messageId, messagePreview) {
+            const msgElement = document.getElementById(messageId);
+            if (!msgElement) return;
+
+            const widget = document.createElement('div');
+            widget.className = 'feedback-widget';
+            widget.setAttribute('role', 'region');
+            widget.setAttribute('aria-label', 'Feedback for this response');
+
+            const thumbsUp = document.createElement('button');
+            thumbsUp.className = 'feedback-btn';
+            thumbsUp.setAttribute('aria-label', 'This response was helpful');
+            thumbsUp.setAttribute('aria-pressed', 'false');
+            thumbsUp.textContent = '+ Helpful';
+
+            const thumbsDown = document.createElement('button');
+            thumbsDown.className = 'feedback-btn';
+            thumbsDown.setAttribute('aria-label', 'This response was not helpful');
+            thumbsDown.setAttribute('aria-pressed', 'false');
+            thumbsDown.textContent = '- Not helpful';
+
+            thumbsUp.addEventListener('click', () => {
+                const isPressed = thumbsUp.getAttribute('aria-pressed') === 'true';
+                thumbsUp.setAttribute('aria-pressed', !isPressed);
+                if (!isPressed) {
+                    thumbsDown.setAttribute('aria-pressed', 'false');
+                    sendFeedback(1, messagePreview);
+                }
+            });
+
+            thumbsDown.addEventListener('click', () => {
+                const isPressed = thumbsDown.getAttribute('aria-pressed') === 'true';
+                thumbsDown.setAttribute('aria-pressed', !isPressed);
+                if (!isPressed) {
+                    thumbsUp.setAttribute('aria-pressed', 'false');
+                    sendFeedback(0, messagePreview);
+                }
+            });
+
+            widget.appendChild(thumbsUp);
+            widget.appendChild(thumbsDown);
+            msgElement.querySelector('.message-bubble').appendChild(widget);
+        }
+
+        // Send feedback to server
+        async function sendFeedback(rating, messagePreview) {
+            try {
+                await fetch('/feedback', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify({
+                        rating: rating,
+                        message: messagePreview.substring(0, 200),
+                        sessionId: SESSION_ID,
+                        timestamp: new Date().toISOString()
+                    })
+                });
+            } catch (error) {
+                console.error('Feedback error:', error);
+            }
+        }
+
+        // Process inline markdown (V9)
+        function processInline(text) {
+            // Convert markdown links to HTML
+            text = text.replace(/\[([^\]]+)\]\(((?:https?:\/\/|tel:|mailto:)[^\)]+)\)/g, (match, linkText, url) => {
+                const isExternal = url.startsWith('http');
+                const target = isExternal ? ' target="_blank" rel="noopener noreferrer"' : '';
+                return `<a href="${url}"${target}>${linkText}</a>`;
+            });
+
+            // Convert plain URLs
+            text = text.replace(/(?<![\[\(])(https?:\/\/[^\s\)]+)/g, '<a href="$1" target="_blank" rel="noopener noreferrer">$1</a>');
+
+            // Convert phone numbers
+            text = text.replace(/(\d{2}\s\d{4}\s\d{4})/g, '<a href="tel:$1">$1</a>');
+
+            // Bold text
+            text = text.replace(/\*\*([^\*]+)\*\*/g, '<strong>$1</strong>');
+
+            // Italics
+            text = text.replace(/\*([^\*]+)\*/g, '<em>$1</em>');
+
+            return text;
+        }
+
+        // Markdown to HTML converter (V9: block-level lines processing, processInline helper, NO HTML escaping)
+        function mdToHtml(text) {
+            const lines = text.split('\n');
+            let html = '';
+            let inList = false;
+
+            for (let i = 0; i < lines.length; i++) {
+                const line = lines[i];
+                const trimmed = line.trim();
+
+                // Headers
+                if (trimmed.startsWith('# ')) {
+                    html += '<h1>' + processInline(trimmed.substring(2)) + '</h1>';
+                } else if (trimmed.startsWith('## ')) {
+                    html += '<h2>' + processInline(trimmed.substring(3)) + '</h2>';
+                } else if (trimmed.startsWith('### ')) {
+                    html += '<h3>' + processInline(trimmed.substring(4)) + '</h3>';
+                }
+                // List items
+                else if (trimmed.startsWith('- ')) {
+                    if (!inList) {
+                        html += '<ul>';
+                        inList = true;
+                    }
+                    html += '<li>' + processInline(trimmed.substring(2)) + '</li>';
+                } else if (trimmed.startsWith('* ')) {
+                    if (!inList) {
+                        html += '<ul>';
+                        inList = true;
+                    }
+                    html += '<li>' + processInline(trimmed.substring(2)) + '</li>';
+                }
+                // End list if next line is not a list item
+                else if (inList && !trimmed.startsWith('- ') && !trimmed.startsWith('* ')) {
+                    html += '</ul>';
+                    inList = false;
+                    if (trimmed.length > 0) {
+                        html += '<p>' + processInline(trimmed) + '</p>';
+                    }
+                }
+                // Paragraphs
+                else if (trimmed.length > 0) {
+                    html += '<p>' + processInline(trimmed) + '</p>';
+                }
+            }
+
+            // Close list if still open
+            if (inList) {
+                html += '</ul>';
+            }
+
+            return html;
+        }
+
+        // Focus trap in chat
+        const chatContainer = document.querySelector('.chat-container');
+        const focusableElements = chatContainer.querySelectorAll(
+            'button, [href], input, textarea, [tabindex]:not([tabindex="-1"])'
+        );
+
+        if (focusableElements.length > 0) {
+            const firstFocusable = focusableElements[0];
+            const lastFocusable = focusableElements[focusableElements.length - 1];
+
+            chatContainer.addEventListener('keydown', (e) => {
+                if (e.key !== 'Tab') return;
+
+                if (e.shiftKey) {
+                    if (document.activeElement === firstFocusable) {
+                        lastFocusable.focus();
+                        e.preventDefault();
+                    }
+                } else {
+                    if (document.activeElement === lastFocusable) {
+                        firstFocusable.focus();
+                        e.preventDefault();
+                    }
+                }
+            });
+        }
+    </script>
+</body>
+</html>

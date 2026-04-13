@@ -1,0 +1,3 @@
+# No pip dependencies for stdlib server
+# Add only if bin features require them:
+# shapely>=2.0  (for GeoJSON bin lookup)
