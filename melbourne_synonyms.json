@@ -40,7 +40,9 @@
   },
 
   "categories": {
+
     "waste_bins": {
+      "canonical_category": "waste_bins",
       "canonical": ["bin", "bins", "rubbish", "waste", "recycling", "kerbside collection"],
       "lay_synonyms": [
         "garbage", "trash", "rubbish bin", "wheelie bin",
@@ -53,70 +55,109 @@
       ],
       "child_terms": ["yucky bin", "smelly bin", "rubbish truck", "garbage truck", "bin men"],
       "senior_terms": ["rubbish cart", "dustbin"],
-      "redirect_phrases": [
-        "when is my bin day",
-        "what bin goes out",
-        "how do i book hard waste",
-        "where is the a-z guide",
-        "how do i throw away"
-      ]
+      "misspellings": ["rubish", "rubbbish", "garbidge", "recicling", "binday", "wheelybin"],
+      "voice_garbles": [
+        "when is me bin day",
+        "when my bin go out",
+        "what day bin",
+        "my bin day",
+        "bin pickup",
+        "bin not picked up",
+        "missed my bin"
+      ],
+      "redirect_phrases": {
+        "when is my bin day": "waste_bins",
+        "what bin goes out": "waste_bins",
+        "how do i book hard waste": "waste_bins",
+        "where is the a-z guide": "waste_bins",
+        "how do i throw away": "waste_bins",
+        "bin not collected": "waste_bins",
+        "missed my bin": "waste_bins"
+      }
     },
+
     "rates": {
+      "canonical_category": "rates",
       "canonical": ["rates", "council rates", "net annual value", "nav", "differential rating"],
       "lay_synonyms": [
         "rate notice", "rate bill", "rates account", "council tax", "pay my rates",
         "rates hardship", "rates concession", "pensioner rates", "waste charge",
         "rate cap", "fair go rates", "rate in the dollar"
       ],
-      "redirect_phrases": [
-        "how are my rates calculated",
-        "why did my rates go up",
-        "can i get a rates discount",
-        "i can't afford my rates"
-      ]
+      "child_terms": [],
+      "senior_terms": ["council tax"],
+      "misspellings": ["retes", "raets", "pensionr", "consession"],
+      "voice_garbles": ["how much rates", "pay my rates online", "rates went up"],
+      "redirect_phrases": {
+        "how are my rates calculated": "rates",
+        "why did my rates go up": "rates",
+        "can i get a rates discount": "rates",
+        "i can't afford my rates": "rates",
+        "how do i pay my rates": "rates"
+      }
     },
+
     "parking": {
+      "canonical_category": "parking",
       "canonical": ["parking", "parking permit", "parking fine", "residential parking permit"],
       "lay_synonyms": [
         "ppr", "pay park", "meter", "clearway", "fine", "infringement",
         "appeal fine", "dispute fine", "cbd parking", "pay and display",
         "better parking program", "parking zone"
       ],
-      "redirect_phrases": [
-        "how do i get a residents parking permit",
-        "how do i appeal a parking fine",
-        "i got a parking fine",
-        "can i get a parking permit for a visitor"
-      ]
+      "child_terms": [],
+      "senior_terms": [],
+      "misspellings": ["parkin", "parcking", "infringment", "permmit"],
+      "voice_garbles": ["appeal my fine", "got a parking fine", "residents parking"],
+      "redirect_phrases": {
+        "how do i get a residents parking permit": "parking",
+        "how do i appeal a parking fine": "parking",
+        "i got a parking fine": "parking",
+        "can i get a parking permit for a visitor": "parking"
+      }
     },
+
     "planning_building": {
+      "canonical_category": "planning_building",
       "canonical": ["planning permit", "building permit", "melbourne planning scheme", "heritage overlay"],
       "lay_synonyms": [
         "do i need a permit", "subdivision", "rezoning", "development plan",
         "planning register", "vba", "building surveyor", "owner builder",
         "property enquiry", "fishermans bend", "arden", "queen victoria market precinct"
       ],
-      "redirect_phrases": [
-        "do i need a planning permit",
-        "how do i lodge a planning application",
-        "is there a heritage overlay on my property"
-      ]
+      "child_terms": [],
+      "senior_terms": [],
+      "misspellings": ["plannning", "buidling", "herritage", "overlayy"],
+      "voice_garbles": ["do i need a permit for", "planning application", "heritage overlay my house"],
+      "redirect_phrases": {
+        "do i need a planning permit": "planning_building",
+        "how do i lodge a planning application": "planning_building",
+        "is there a heritage overlay on my property": "planning_building"
+      }
     },
+
     "transport_utilities": {
+      "canonical_category": "transport_utilities",
       "canonical": ["public transport", "utilities", "free tram zone", "citipower", "jemena", "greater western water"],
       "lay_synonyms": [
         "tram", "train", "bus", "myki", "ptv", "skybus", "city circle tram",
         "power outage", "gas leak", "water leak", "burst pipe", "nbn",
         "electricity provider", "water provider"
       ],
-      "redirect_phrases": [
-        "where is the free tram zone",
-        "who supplies my water",
-        "who fixes my power outage",
-        "there is a gas leak"
-      ]
+      "child_terms": [],
+      "senior_terms": [],
+      "misspellings": ["tranm", "citipwer", "jamena", "mykie"],
+      "voice_garbles": ["my power is out", "water is off", "there's a gas smell"],
+      "redirect_phrases": {
+        "where is the free tram zone": "transport_utilities",
+        "who supplies my water": "transport_utilities",
+        "who fixes my power outage": "transport_utilities",
+        "there is a gas leak": "transport_utilities"
+      }
     },
+
     "community": {
+      "canonical_category": "community",
       "canonical": ["community", "aged", "older", "youth", "disability", "multicultural", "first nations"],
       "lay_synonyms": [
         "aged care", "older people programs", "out and about", "seniors",
@@ -125,38 +166,56 @@
         "reconciliation action plan", "aboriginal melbourne",
         "wurundjeri", "bunurong", "narrm ngarrgu"
       ],
-      "redirect_phrases": [
-        "what services are there for older residents",
-        "how do i connect with first nations services",
-        "what is there for international students"
-      ]
+      "child_terms": [],
+      "senior_terms": ["seniors card", "pensioner services"],
+      "misspellings": ["aborignal", "multiculturl", "wurundgeri", "bunurung"],
+      "voice_garbles": ["what's on for seniors", "first nations services"],
+      "redirect_phrases": {
+        "what services are there for older residents": "community",
+        "how do i connect with first nations services": "community",
+        "what is there for international students": "community"
+      }
     },
+
     "housing_homelessness": {
+      "canonical_category": "housing_homelessness",
       "canonical": ["housing", "homelessness", "make room", "rough sleeping", "affordable housing"],
       "lay_synonyms": [
         "housing crisis", "i'm homeless", "rough sleeper", "sleeping rough",
         "make room program", "602 little bourke", "affordable housing strategy"
       ],
-      "redirect_phrases": [
-        "i am sleeping rough",
-        "what is the make room program",
-        "where can i get emergency housing"
-      ]
+      "child_terms": [],
+      "senior_terms": [],
+      "misspellings": ["homless", "houseing", "rough sleping"],
+      "voice_garbles": ["nowhere to sleep", "no place to live", "i'm on the street"],
+      "redirect_phrases": {
+        "i am sleeping rough": "housing_homelessness",
+        "what is the make room program": "housing_homelessness",
+        "where can i get emergency housing": "housing_homelessness"
+      }
     },
+
     "governance": {
+      "canonical_category": "governance",
       "canonical": ["council meeting", "councillor", "lord mayor", "future melbourne committee"],
       "lay_synonyms": [
         "elected members", "agenda", "minutes", "foi",
         "freedom of information", "complaint", "petition",
         "council plan", "annual report", "city of melbourne act"
       ],
-      "redirect_phrases": [
-        "when is the next council meeting",
-        "who is the lord mayor",
-        "how do i make a complaint"
-      ]
+      "child_terms": [],
+      "senior_terms": [],
+      "misspellings": ["counciler", "counsillor", "agenada"],
+      "voice_garbles": ["when is the next meeting", "who's the mayor", "make a complaint"],
+      "redirect_phrases": {
+        "when is the next council meeting": "governance",
+        "who is the lord mayor": "governance",
+        "how do i make a complaint": "governance"
+      }
     },
+
     "emergency_safety": {
+      "canonical_category": "emergency_safety",
       "canonical": ["emergency", "memplan", "relief centre", "family violence", "mental health"],
       "lay_synonyms": [
         "flood", "heatwave", "storm", "ses", "cfa", "evacuation",
@@ -164,51 +223,73 @@
         "lifeline", "beyond blue", "suicide call back service", "13yarn",
         "community safety officer"
       ],
-      "redirect_phrases": [
-        "what do i do in an emergency",
-        "there is a flood",
-        "i need family violence help",
-        "i need mental health help"
-      ]
+      "child_terms": [],
+      "senior_terms": [],
+      "misspellings": ["emrgency", "safesteps", "beyondblue"],
+      "voice_garbles": ["i need help now", "there is a fire", "someone is hurting me"],
+      "redirect_phrases": {
+        "what do i do in an emergency": "emergency_safety",
+        "there is a flood": "emergency_safety",
+        "i need family violence help": "emergency_safety",
+        "i need mental health help": "emergency_safety"
+      }
     },
+
     "venues_events": {
+      "canonical_category": "venues_events",
       "canonical": ["library", "venue hire", "aquatic", "moomba", "christmas festival"],
       "lay_synonyms": [
         "city library", "library at the dock", "kathleen syme",
         "narrm ngarrgu library", "melbourne city baths", "artplay",
         "signal", "meat market", "creative melbourne"
       ],
-      "redirect_phrases": [
-        "where is the closest library",
-        "how do i hire a venue",
-        "when is moomba"
-      ]
+      "child_terms": ["story time", "kids craft"],
+      "senior_terms": [],
+      "misspellings": ["libary", "libary", "aquaticc", "mumba"],
+      "voice_garbles": ["swimming pool", "when is moomba", "nearest library"],
+      "redirect_phrases": {
+        "where is the closest library": "venues_events",
+        "how do i hire a venue": "venues_events",
+        "when is moomba": "venues_events"
+      }
     },
+
     "economy_tourism": {
+      "canonical_category": "economy_tourism",
       "canonical": ["business", "invest melbourne", "experience melbourne", "queen victoria market"],
       "lay_synonyms": [
         "invest melbourne advisory board", "miiab", "melbourne innovation district",
         "melbourne advantage", "business grants", "event grants",
         "creative melbourne", "outdoor dining permit"
       ],
-      "redirect_phrases": [
-        "how do i start a business in melbourne",
-        "are there business grants",
-        "where is queen victoria market"
-      ]
+      "child_terms": [],
+      "senior_terms": [],
+      "misspellings": ["bussiness", "grantz", "vic market"],
+      "voice_garbles": ["start a business", "vic market opening hours"],
+      "redirect_phrases": {
+        "how do i start a business in melbourne": "economy_tourism",
+        "are there business grants": "economy_tourism",
+        "where is queen victoria market": "economy_tourism"
+      }
     },
+
     "environment_climate": {
+      "canonical_category": "environment_climate",
       "canonical": ["climate", "net zero", "emissions reduction", "urban forest", "nature in the city"],
       "lay_synonyms": [
         "climate and biodiversity emergency", "mrep", "renewable energy",
         "green factor tool", "cityswitch", "greenline project",
         "swimmable birrarung", "tree planting"
       ],
-      "redirect_phrases": [
-        "what is council doing about climate change",
-        "how do i get a street tree",
-        "what is the greenline project"
-      ]
+      "child_terms": [],
+      "senior_terms": [],
+      "misspellings": ["climat", "environmnt", "greenlne"],
+      "voice_garbles": ["street tree", "climate action", "tree in my street"],
+      "redirect_phrases": {
+        "what is council doing about climate change": "environment_climate",
+        "how do i get a street tree": "environment_climate",
+        "what is the greenline project": "environment_climate"
+      }
     }
   },
 
