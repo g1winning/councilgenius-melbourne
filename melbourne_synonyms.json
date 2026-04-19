@@ -1,0 +1,220 @@
+{
+  "_meta": {
+    "council": "City of Melbourne",
+    "council_slug": "melbourne_city_council",
+    "schema_version": "v10.2",
+    "generated": "2026-04-19",
+    "purpose": "Resolve ambiguous, misspelled, voice-garbled or child-level queries to canonical Council Genius service categories for the City of Melbourne. Consumed by server.py resolve_query() before the Claude API call. Paired with Metaphone phonetic fallback for queries that match nothing here."
+  },
+
+  "global_substitutions": {
+    "com": "city of melbourne",
+    "cbd": "melbourne cbd",
+    "lord mayor": "lord mayor nicholas reece",
+    "deputy lord mayor": "deputy lord mayor roshena campbell",
+    "fmc": "future melbourne committee",
+    "nav": "net annual value",
+    "rap": "reconciliation action plan",
+    "memplan": "municipal emergency management plan",
+    "mep": "municipal early years plan",
+    "mch": "maternal and child health",
+    "miiab": "melbourne innovation and investment advisory board"
+  },
+
+  "child_vocabulary_hints": {
+    "rubbish truck": "waste_bins",
+    "yucky bin": "waste_bins",
+    "bin man": "waste_bins",
+    "smelly bin": "waste_bins",
+    "doggo": "animals",
+    "puppy": "animals",
+    "pooch": "animals"
+  },
+
+  "phonetic_confusables": {
+    "birrarung": ["yarra", "birrarong", "berrarung"],
+    "narrm": ["naarm", "narm", "narrrm"],
+    "merri-bek": ["merribek", "meribek", "moreland"],
+    "bourke": ["burk", "burke"],
+    "collins": ["colins", "kolins"]
+  },
+
+  "categories": {
+    "waste_bins": {
+      "canonical": ["bin", "bins", "rubbish", "waste", "recycling", "kerbside collection"],
+      "lay_synonyms": [
+        "garbage", "trash", "rubbish bin", "wheelie bin",
+        "general rubbish", "household waste", "mixed recycling",
+        "green bin", "red bin", "yellow bin", "glass bin",
+        "food waste", "organics", "fogo", "food and organics",
+        "bin day", "collection day", "hard waste", "hard rubbish", "kerbside",
+        "apartment waste", "commercial waste", "dynon road", "waste centre",
+        "a-z guide", "a to z waste"
+      ],
+      "child_terms": ["yucky bin", "smelly bin", "rubbish truck", "garbage truck", "bin men"],
+      "senior_terms": ["rubbish cart", "dustbin"],
+      "redirect_phrases": [
+        "when is my bin day",
+        "what bin goes out",
+        "how do i book hard waste",
+        "where is the a-z guide",
+        "how do i throw away"
+      ]
+    },
+    "rates": {
+      "canonical": ["rates", "council rates", "net annual value", "nav", "differential rating"],
+      "lay_synonyms": [
+        "rate notice", "rate bill", "rates account", "council tax", "pay my rates",
+        "rates hardship", "rates concession", "pensioner rates", "waste charge",
+        "rate cap", "fair go rates", "rate in the dollar"
+      ],
+      "redirect_phrases": [
+        "how are my rates calculated",
+        "why did my rates go up",
+        "can i get a rates discount",
+        "i can't afford my rates"
+      ]
+    },
+    "parking": {
+      "canonical": ["parking", "parking permit", "parking fine", "residential parking permit"],
+      "lay_synonyms": [
+        "ppr", "pay park", "meter", "clearway", "fine", "infringement",
+        "appeal fine", "dispute fine", "cbd parking", "pay and display",
+        "better parking program", "parking zone"
+      ],
+      "redirect_phrases": [
+        "how do i get a residents parking permit",
+        "how do i appeal a parking fine",
+        "i got a parking fine",
+        "can i get a parking permit for a visitor"
+      ]
+    },
+    "planning_building": {
+      "canonical": ["planning permit", "building permit", "melbourne planning scheme", "heritage overlay"],
+      "lay_synonyms": [
+        "do i need a permit", "subdivision", "rezoning", "development plan",
+        "planning register", "vba", "building surveyor", "owner builder",
+        "property enquiry", "fishermans bend", "arden", "queen victoria market precinct"
+      ],
+      "redirect_phrases": [
+        "do i need a planning permit",
+        "how do i lodge a planning application",
+        "is there a heritage overlay on my property"
+      ]
+    },
+    "transport_utilities": {
+      "canonical": ["public transport", "utilities", "free tram zone", "citipower", "jemena", "greater western water"],
+      "lay_synonyms": [
+        "tram", "train", "bus", "myki", "ptv", "skybus", "city circle tram",
+        "power outage", "gas leak", "water leak", "burst pipe", "nbn",
+        "electricity provider", "water provider"
+      ],
+      "redirect_phrases": [
+        "where is the free tram zone",
+        "who supplies my water",
+        "who fixes my power outage",
+        "there is a gas leak"
+      ]
+    },
+    "community": {
+      "canonical": ["community", "aged", "older", "youth", "disability", "multicultural", "first nations"],
+      "lay_synonyms": [
+        "aged care", "older people programs", "out and about", "seniors",
+        "disability advisory committee", "lgbtiq", "multicultural hub",
+        "international students", "participate melbourne",
+        "reconciliation action plan", "aboriginal melbourne",
+        "wurundjeri", "bunurong", "narrm ngarrgu"
+      ],
+      "redirect_phrases": [
+        "what services are there for older residents",
+        "how do i connect with first nations services",
+        "what is there for international students"
+      ]
+    },
+    "housing_homelessness": {
+      "canonical": ["housing", "homelessness", "make room", "rough sleeping", "affordable housing"],
+      "lay_synonyms": [
+        "housing crisis", "i'm homeless", "rough sleeper", "sleeping rough",
+        "make room program", "602 little bourke", "affordable housing strategy"
+      ],
+      "redirect_phrases": [
+        "i am sleeping rough",
+        "what is the make room program",
+        "where can i get emergency housing"
+      ]
+    },
+    "governance": {
+      "canonical": ["council meeting", "councillor", "lord mayor", "future melbourne committee"],
+      "lay_synonyms": [
+        "elected members", "agenda", "minutes", "foi",
+        "freedom of information", "complaint", "petition",
+        "council plan", "annual report", "city of melbourne act"
+      ],
+      "redirect_phrases": [
+        "when is the next council meeting",
+        "who is the lord mayor",
+        "how do i make a complaint"
+      ]
+    },
+    "emergency_safety": {
+      "canonical": ["emergency", "memplan", "relief centre", "family violence", "mental health"],
+      "lay_synonyms": [
+        "flood", "heatwave", "storm", "ses", "cfa", "evacuation",
+        "1800respect", "safe steps", "the orange door",
+        "lifeline", "beyond blue", "suicide call back service", "13yarn",
+        "community safety officer"
+      ],
+      "redirect_phrases": [
+        "what do i do in an emergency",
+        "there is a flood",
+        "i need family violence help",
+        "i need mental health help"
+      ]
+    },
+    "venues_events": {
+      "canonical": ["library", "venue hire", "aquatic", "moomba", "christmas festival"],
+      "lay_synonyms": [
+        "city library", "library at the dock", "kathleen syme",
+        "narrm ngarrgu library", "melbourne city baths", "artplay",
+        "signal", "meat market", "creative melbourne"
+      ],
+      "redirect_phrases": [
+        "where is the closest library",
+        "how do i hire a venue",
+        "when is moomba"
+      ]
+    },
+    "economy_tourism": {
+      "canonical": ["business", "invest melbourne", "experience melbourne", "queen victoria market"],
+      "lay_synonyms": [
+        "invest melbourne advisory board", "miiab", "melbourne innovation district",
+        "melbourne advantage", "business grants", "event grants",
+        "creative melbourne", "outdoor dining permit"
+      ],
+      "redirect_phrases": [
+        "how do i start a business in melbourne",
+        "are there business grants",
+        "where is queen victoria market"
+      ]
+    },
+    "environment_climate": {
+      "canonical": ["climate", "net zero", "emissions reduction", "urban forest", "nature in the city"],
+      "lay_synonyms": [
+        "climate and biodiversity emergency", "mrep", "renewable energy",
+        "green factor tool", "cityswitch", "greenline project",
+        "swimmable birrarung", "tree planting"
+      ],
+      "redirect_phrases": [
+        "what is council doing about climate change",
+        "how do i get a street tree",
+        "what is the greenline project"
+      ]
+    }
+  },
+
+  "fallback_rules": {
+    "no_match_phone": "03 9658 9658",
+    "no_match_email": "melbourne@melbourne.vic.gov.au",
+    "out_of_area_template": "That is outside the City of Melbourne area. Please contact {council} on {phone}."
+  }
+}

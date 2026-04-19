@@ -1,0 +1,11 @@
+{
+  "_meta": {
+    "council": "City of Melbourne",
+    "council_slug": "melbourne_city_council",
+    "schema_version": "v10.2",
+    "generated": "2026-04-19",
+    "notes": "Stub. /pdf_lookup will return 503 until a full build_knowledge_meta pass is run on Melbourne PDFs. Non-blocking for V10.2 deploy."
+  },
+  "documents": [],
+  "sections": {}
+}
