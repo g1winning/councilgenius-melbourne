@@ -46,6 +46,15 @@ Source: https://www.melbourne.vic.gov.au/city-maps
 
 # 1.4 RESIDENT POPULATION
 
+Demographic diversity: **55%** of residents were born overseas, and more than
+**70%** have at least one parent born overseas. Young people aged **12 to 24**
+make up approximately **one-third** of the total population.
+
+The City of Melbourne describes itself as the *"gateway to Victoria, the seat of
+the Victorian Government and the headquarters of many local, national and
+international companies, peak bodies, government and non-government agencies"*.
+
+
 More than 159,000 people live in the City of Melbourne, across
 102,000 residences. The daily population — including workers,
 students, visitors and tourists — approaches 1 million people,
@@ -201,6 +210,26 @@ the CEO and Executive Leadership Team.
 Source: https://www.melbourne.vic.gov.au/about-council
 
 # 1.16 COUNCIL AND FUTURE MELBOURNE COMMITTEE MEETINGS
+
+
+# 1.16a COUNCIL MEETING SCHEDULE DETAIL
+
+Regular meeting cadence:
+- Council meetings — **Tuesdays at 5:30pm** at **Town Hall Commons** or **Council Chamber**.
+- Public submissions (written) — deadline **10:00 a.m.** on meeting day.
+- Verbal submissions permitted at **Committee** meetings; generally NOT at full Council meetings.
+
+Source: https://www.melbourne.vic.gov.au/upcoming-council-and-committee-meetings
+
+# 1.16b SPECIAL COMMITTEES
+
+Special committees are established when quorum is lost at the Future Melbourne
+Committee, including:
+- **Gaming Planning Provisions Committee**
+- **Amendment C278 Sunlight to Parks Committee**
+
+Source: https://www.melbourne.vic.gov.au/committees-and-external-bodies
+
 
 Regular schedule:
 - Council meetings — first Tuesday of the month, 10.30am to midday.
@@ -361,6 +390,16 @@ Source: https://www.melbourne.vic.gov.au/council-plan-vision#assetplan
 
 # 2.5 ANNUAL BUDGET 2025-26
 
+
+# 2.5a OPEN SPACE AND STREETSCAPE INVESTMENT
+
+Council invests in parks, open spaces, and streetscapes to support biodiversity
+and recreation. The 2025–26 budget allocated **$44.3 million** specifically for
+open space, streetscapes, and greening initiatives.
+
+Source: https://www.melbourne.vic.gov.au/budget
+
+
 The 2025-26 Annual Budget total is $804.8 million (adopted). Draft
 Budget revenue was tabled at $732.4 million. Rates contribution:
 $394 million of the required revenue.
@@ -383,6 +422,21 @@ Source: https://www.melbourne.vic.gov.au/draft-budget-2026-27
 
 # 2.7 EMISSIONS REDUCTION PLAN 2021-26
 
+The Emissions Reduction Plan endorsed 19 October 2021 contains **72 actions across
+8 priority areas** to guide Council towards net zero emissions by 2040.
+
+
+**Kerbside FOGO Service Rollout Timeline:**
+- Phase 1 (June 2021): Single-unit dwellings and low-rise apartments.
+- **80 high-rise buildings by September 2026**
+- **Full service for all remaining buildings by July 2027**
+
+**Dynon Road Waste and Recycling Centre** serves as a specialty disposal facility
+for e-waste, chemicals, and hard waste.
+
+Source: https://www.melbourne.vic.gov.au/waste-and-recycling
+
+
 The Emissions Reduction Plan 2021-26 was endorsed on 19 October 2021.
 It sets out 72 actions across 8 priority areas to guide Council
 towards net zero emissions by 2040 for the municipality — a target
@@ -400,6 +454,24 @@ Source: https://mvga-prod-files.s3.ap-southeast-4.amazonaws.com/public/2024-05/e
 
 # 2.8 CLIMATE AND BIODIVERSITY EMERGENCY
 
+Council operations are **Certified Carbon Neutral by Climate Active since 2012**.
+
+
+
+# 2.8a RESILIENT MELBOURNE STRATEGY
+
+The **Resilient Melbourne Strategy** was endorsed on **17 May 2016** to address
+acute and chronic shocks including climate change, extreme weather, and economic
+disruption. The strategy informs disaster preparedness and community resilience
+initiatives.
+
+The **Cool Routes** digital tool helps residents and visitors find cooler walking
+and cycling paths by considering architecture and time of day, supporting heat
+adaptation in the city.
+
+Source: https://www.melbourne.vic.gov.au/resilient-melbourne-strategy
+
+
 Council declared a Climate and Biodiversity Emergency in 2019. The
 Climate Change Adaptation Strategy 2009 was the first of its kind in
 Australia, and the Adaptation Action Plan 2010 outlined detailed
@@ -409,6 +481,20 @@ Source: https://www.melbourne.vic.gov.au/taking-bold-action-climate-change
 
 # 2.9 PARIS COMMITMENT AND TREE-PLANTING GOAL
 
+
+# 2.9a URBAN FOREST AMBASSADORS
+
+The City of Melbourne's Urban Forest Strategy is guided by two named Garden City
+Ambassadors:
+- **Paul Bangay OAM** — Garden City Ambassador
+- **Margaret Parisi** — First Nations Garden City Ambassador
+
+They help advance the goal of planting 3,000 trees every year and cooling the
+city by 4°C.
+
+Source: https://www.melbourne.vic.gov.au/urban-forest-strategy
+
+
 Council has committed to limiting global temperature rise to under
 2°C by 2050 per the Paris Agreement. Council's tree-planting goal —
 supporting the Urban Forest Strategy — is 3,000 trees per year, with
@@ -416,6 +502,18 @@ the aim of cooling the city by 4°C.
 Source: https://www.melbourne.vic.gov.au/urban-forest-strategy
 
 # 2.10 MUNICIPAL PUBLIC HEALTH AND WELLBEING PLAN 2025-29
+
+
+# 2.6a COMMUNITY FOOD RELIEF PLAN
+
+The Community Food Relief Plan 2021–2025 was endorsed in December 2021 to address
+food insecurity. In 2021, **1 in 3 residents** in the City of Melbourne were
+food-insecure. The plan commits Council to transition to a food-secure city
+through relief programs for vulnerable members and support for community-led
+gardens and local food production.
+
+Source: https://www.melbourne.vic.gov.au/municipal-public-health-and-wellbeing-plan
+
 
 The Municipal Public Health and Wellbeing Plan 2025-29 is Council's
 strategic plan establishing the overall aims and priorities for
@@ -425,6 +523,16 @@ health, safety, connection, preventive services and access.
 Source: https://www.melbourne.vic.gov.au/municipal-public-health-and-wellbeing-plan
 
 # 2.11 INCLUSIVE MELBOURNE STRATEGY 2022-32 AND ACTION PLAN 2024-26
+
+
+# 2.11a DISABILITY ACCESS AND INCLUSION PLAN 2020-2024
+
+The Disability Access and Inclusion Plan 2020–2024 was endorsed on **15 September
+2020**. It focuses on eliminating barriers in physical, informational and social
+environments to ensure accessibility for people with disability.
+
+Source: https://www.melbourne.vic.gov.au/disability-access-and-inclusion-plan
+
 
 The Inclusive Melbourne Strategy 2022-32 is Council's 10-year
 inclusion framework. The Inclusive Melbourne Action Plan 2024-26
@@ -451,6 +559,14 @@ Source: https://www.melbourne.vic.gov.au/reconciliation-action-plan
 
 # 2.14 AFFORDABLE HOUSING STRATEGY 2020-30
 
+The strategy commits to delivering affordable housing through major developments:
+- **Munro development: 48 units**
+- **Boyd development: 40 units**
+- **Queen Victoria Market Southern Precinct: 15% of floor space** in one building for affordable housing.
+
+Source: https://www.melbourne.vic.gov.au/affordable-housing-strategy
+
+
 The Affordable Housing Strategy 2020-30 is Council's 10-year
 framework for improving affordable housing outcomes in the
 municipality. It guides Council's engagement with state housing
@@ -458,6 +574,13 @@ authorities, community housing providers, and private developers.
 Source: https://www.melbourne.vic.gov.au/affordable-housing-strategy
 
 # 2.15 TRANSPORT STRATEGY 2030
+
+The Transport Strategy 2030 is aligned with the Economic Development Strategy 2030
+and the **City Road Master Plan** (endorsed **June 2016**). Major commitments
+include separated bike lanes on **Kavanagh Street** and **Southbank Boulevard**.
+
+Source: https://www.melbourne.vic.gov.au/transport-strategy
+
 
 Transport Strategy 2030 is Council's long-range transport framework.
 It sets priorities for cycling infrastructure, active transport,
@@ -467,12 +590,29 @@ Source: https://www.melbourne.vic.gov.au/transport-strategy
 
 # 2.16 URBAN FOREST STRATEGY
 
+The Greenline Project spans **4 kilometres** across **5 precincts** (Birrarung Marr,
+The Falls, River Park, Maritime, Saltwater Wharf) along the north bank of the
+Yarra River (Birrarung). The initial site (Birrarung Marr) is complete with
+**70 native trees** and **25,000 native plants**, and partnership with the
+**Australian Government** is helping deliver this city-shaping initiative.
+
+
 The Urban Forest Strategy is Council's plan for the city's tree
 canopy. The strategy targets 3,000 tree plantings per year to cool
 the city by 4°C, consistent with the Paris commitment.
 Source: https://www.melbourne.vic.gov.au/urban-forest-strategy
 
 # 2.17 NATURE IN THE CITY STRATEGY
+
+
+# 2.17a NATURE IN THE CITY REINTRODUCTIONS
+
+A milestone in ecological restoration: the **Matchstick Grasshopper**, locally
+extinct for decades, was successfully reintroduced into **Royal Park** as part of
+Council's Nature in the City Strategy.
+
+Source: https://www.melbourne.vic.gov.au/nature-in-the-city-strategy
+
 
 The Nature in the City Strategy guides biodiversity, habitat
 connectivity, and ecological-infrastructure investment across the
@@ -654,6 +794,17 @@ Source: https://www.melbourne.vic.gov.au/parking-and-transport
 Kerbside parking fees vary by zone and time-of-day. The Kerbside
 Parking and Fees page gives current fees and zone-by-zone detail:
 https://www.melbourne.vic.gov.au/kerbside-parking-and-fees
+
+**Context — Municipal parking landscape (2026):**
+- Weekday city population: approximately 900,000+ people.
+- Resident population: 159,000 across 102,000 residences; 37 km² municipal area.
+- Kerbside supply: approximately 23,000 total kerbside parking spaces, of which
+  17,000 are allocated to car parking (remainder to loading, taxis, etc.).
+- Off-street supply: approximately 200,000+ private and council-operated car parking
+  spaces across the municipality.
+- Kerbside space = 4% of total street space.
+
+Source: City of Melbourne — NotebookLM corpus (Phase E, 2026-04-21)
 
 # 4.3 RESIDENTIAL PARKING PERMITS
 
@@ -1444,7 +1595,99 @@ services, not emergency response.
 
 
 ================================================================
-PART 8 — VENUES, EVENTS, CULTURE, ECONOMY AND TOURISM
+
+
+================================================================
+PART 8 — ECONOMY, BUSINESS, TOURISM AND CULTURE
+================================================================
+
+# 8.1 VISITOR ECONOMY AND TOURISM STATISTICS
+
+The City of Melbourne is a major tourism destination. For the year ending
+September 2024:
+- **14.3 million visitors**
+- **$12.6 billion in tourism spending**
+
+Source: https://www.melbourne.vic.gov.au/about-melbourne
+
+# 8.2 ECONOMIC DEVELOPMENT STRATEGY 2030
+
+The Economic Development Strategy 2030 is titled **"The Melbourne Advantage"**
+with a core component called **"The Engine"**, which leverages Melbourne's young
+and diverse population to drive innovation, technology, and entrepreneurship for
+long-term prosperity.
+
+Source: https://www.melbourne.vic.gov.au/economic-development-strategy
+
+# 8.3 EXPERIENCE MELBOURNE 2028
+
+The Experience Melbourne 2028 strategy was developed through extensive industry
+consultation to enhance the city's global appeal and ensure continued growth of
+the visitor economy.
+
+Source: https://www.melbourne.vic.gov.au/experience-melbourne
+
+# 8.4 BUSINESS CONCIERGE AND SUPPORT
+
+The Business Concierge serves as a one-stop-shop for advice on starting or growing
+a business. Outcomes (single-year sample):
+- **181 new businesses supported**
+- **513 new jobs created**
+- **$24.6 million in capital expenditure**
+
+Source: https://www.melbourne.vic.gov.au/business-concierge
+
+# 8.5 BUSINESS GRANTS AND FUNDING PROGRAMS
+
+Council administers five major funding programs:
+
+- **Small Business Grants** — up to **$20,000** for new/existing traders to support innovation and expansion.
+- **Social Enterprise City Impact Program** — **$200,000 fund** (including **$100,000 for circular economy projects**).
+- **Annual Arts Grants** — **$980,000+** in annual funding; individual grants up to **$20,000**.
+- **Business Event Sponsorship Program** — **$100,000 fund** for conferences and forums to draw delegates to the CBD.
+- **Urban Forest Fund** — matched funding up to **$1 million** for private-property greening projects.
+
+Source: https://www.melbourne.vic.gov.au/business-support
+
+# 8.6 QUEEN VICTORIA MARKET PRECINCT RENEWAL
+
+The Queen Victoria Market Southern Precinct renewal project (known as **Gurrowa Place**)
+is a **$1.7 billion** mixed-use development by **Lendlease**, featuring:
+- Build-to-rent apartments and affordable housing
+- Student accommodation
+- Market square (1.8 hectares) to showcase produce
+- New climate-controlled trader and northern sheds
+- **1,500 solar panels** projected to save **$100,000 annually** in energy costs
+- Projected job creation: **~15,000 new jobs**
+
+Source: https://www.melbourne.vic.gov.au/queen-victoria-market-renewal
+
+# 8.7 STARTUP AND INNOVATION ECOSYSTEM
+
+The **Purpose Precinct** at Queen Victoria Market is home to **50+ social
+enterprises** and serves as a "front door" for test-marketing and product
+development. Council libraries (particularly narrm ngarrgu) provide free access
+to makerspaces including 3D printers, DJ gear, and sewing machines for resident
+"side-hustles."
+
+Source: https://www.melbourne.vic.gov.au/innovation-ecosystem
+
+# 8.8 INTERNATIONAL STUDENT INITIATIVES
+
+Council supports international students through:
+- **The Couch International Student Centre** — free cooked meals and social space.
+- **Study Melbourne Hub** — free support service and study space on Hardware Lane.
+- **My Melbourne Program** — free tickets for international students to major city attractions and events.
+
+Source: https://www.melbourne.vic.gov.au/international-students
+
+# 8.9 BUSINESS REGULATION AND DIGITAL PERMITS
+
+Council processes over **40,000+ permits annually** (planning, waste, street trading).
+A digital permits system is streamlining the application and approval process for
+outdoor dining, hospitality, and street-trading permits.
+
+Source: https://www.melbourne.vic.gov.au/permits-and-licenses
 ================================================================
 
 # 8.1 LIBRARIES — OVERVIEW
@@ -1902,3 +2145,467 @@ committed to walking together to build a better future.
 END OF KNOWLEDGE BASE — CITY OF MELBOURNE V10.1
 Build date: 2026-04-19
 ================================================================
+
+# ===== R6 ADDITIONS: SERVICES TO RESIDENTS ENHANCEMENTS =====
+
+# 4.1a LIBRARY OPENING HOURS AND MEETING ROOM FEES
+
+**Library Opening Hours (varies by branch):**
+- Monday–Thursday: 10:00 a.m. – 7:00 p.m. (City Library from 9:00 a.m.)
+- Friday: 1:00 p.m. – 6:00 p.m. (City Library 9:00 a.m. – 6:00 p.m.)
+- Saturday: 10:00 a.m. – 4:00 p.m. (East Melbourne and Southbank close at 1:00 p.m.)
+- Sunday: 12:00 p.m. – 4:00 p.m.
+
+**Meeting Room Fees:**
+- Community hire: $4.90–$12.90/hour
+- Commercial hire: $26.70–$67.70/hour
+
+Source: https://www.melbourne.vic.gov.au/library-programs
+
+# 4.2a MATERNAL AND CHILD HEALTH CENTRES
+
+MCH services are delivered through the following named centres:
+- Boyd Community Hub
+- Carlton Learning Precinct
+- Community Hub at The Dock
+- Kensington MCH Centre
+- Lady Huntingfield
+- North Melbourne Community Centre
+- narrm ngarrgu
+
+Source: https://www.melbourne.vic.gov.au/maternal-and-child-health
+
+# 4.3a RECREATION CENTRE MEMBERSHIP TIERS (MONTHLY)
+
+Council operates Active Melbourne membership tiers:
+- **Active Melbourne Plus**: $90.30/month
+- **Active Melbourne Standard**: $62.30/month
+- **Aquatic Only**: $39.20/month
+
+Facilities include gym, swimming, and stadium access across 5 recreation centres
+and Melbourne City Baths.
+
+Source: https://www.melbourne.vic.gov.au/recreation-and-aquatic-services
+
+# 4.4a ARTS, CREATIVE AND PERFORMANCE VENUES
+
+**ArtPlay** (Birrarung Marr) — workshops and events for children up to age **13**.
+
+**SIGNAL** — creative studio for young and emerging artists aged **13–25**,
+including the **SIGNAL Young Creatives Lab** offering funding and mentoring.
+
+**Meat Market** (North Melbourne) — heritage-listed performance venue for theatre,
+dance, and festivals.
+
+Source: https://www.melbourne.vic.gov.au/venues
+
+# 4.5a COUNCIL-OPERATED OFF-STREET CAR PARKS
+
+Council operates three off-street car parks:
+- **200 Little Collins Street**
+- **10 Russell Place**
+- **212 Royal Lane**
+
+**Parking Fee Structure:**
+- Peak CBD: $7.00/hour
+- Off-peak/outside central city: $2.00–$4.00/hour
+- **EasyPark app benefit**: First 15 minutes free
+- **Tradesperson Permit**: $108.00/week for small home-renovation parking
+
+Source: https://www.melbourne.vic.gov.au/parking
+
+# 4.6a PLANNING PERMIT FEES AND MINISTERIAL THRESHOLDS
+
+**Planning Permit Fees:**
+- Public precautions permit: $334.50
+- Siting variations permit: $461.50
+
+**Ministerial Applications Threshold:** Developments exceeding **25,000 m²** are
+handled by the State Government (Minister for Planning), not Council.
+
+Source: https://www.melbourne.vic.gov.au/planning-permits
+
+# 4.7a PET REGISTRATION UPDATE (2026–27)
+
+**Cat and dog registration is FREE for the 2026–27 period.** Registration remains
+mandatory for all pets. Lost pets are transferred to **The Lost Dogs' Home** for
+pound and rehoming services.
+
+Source: https://www.melbourne.vic.gov.au/pets-and-animals
+
+# 4.9a ACTIVE TRANSPORT AND STREETSCAPE PROJECTS
+
+Council is refreshing **Flinders Lane** with wider footpaths and greening, and
+exploring an **extension of the Bourke Street Mall** to enhance pedestrian movement
+and connection.
+
+Source: https://www.melbourne.vic.gov.au/active-transport
+
+# 4.10a COMMUNITY LEADERSHIP AND VENUE ACCESS PROGRAMS
+
+Council offers:
+- **Community Sport Leadership Program** — for club volunteers and coaches.
+- **Women's Leadership Program** — leadership development for female club leaders.
+- **Community Use of Town Halls Scheme (CUTHS)** — sponsored venue access for
+  not-for-profit organisations.
+- **Aboriginal Arts Grants** and **Quick Response grants** available annually.
+
+Source: https://www.melbourne.vic.gov.au/grants-and-support
+
+# ===== R7 ADDITIONS: EMERGENCY, SAFETY & HARDSHIP ENHANCEMENTS =====
+
+# 7.1a MUNICIPAL EMERGENCY MANAGEMENT PLAN
+
+The **Municipal Emergency Management Plan (MEMP)** is a multi-agency guiding
+document for mitigation, response, and recovery across emergencies. It provides a
+collaborative framework involving multiple government agencies to coordinate
+city-wide crisis response and is integrated with Council's Inclusive Melbourne
+Strategy and Council Plan.
+
+Source: https://www.melbourne.vic.gov.au/emergency-management
+
+# 7.2a EMERGENCY RELIEF CENTRES AND EVACUATION HUBS
+
+Designated emergency relief and evacuation centres include:
+- **Swanston Hall** (Melbourne Town Hall)
+- Various **recreation centres** across the municipality
+
+These venues serve as hubs for community support and information during major
+incidents.
+
+Source: https://www.melbourne.vic.gov.au/emergency-management
+
+# 7.3a HEAT ISLAND MITIGATION AND COOL ROUTES
+
+**Eades Place (West Melbourne)** is a pilot heat-island mitigation site featuring
+permeable asphalt and new tree canopies for passive irrigation and cooling.
+
+The **Cool Routes** digital tool helps residents and visitors plan trips via shaded
+and cool paths, considering architecture and time of day.
+
+Source: https://www.melbourne.vic.gov.au/resilient-melbourne
+
+# 7.4a MAKE ROOM HOMELESSNESS SUPPORT AND PHOENIX FLOOR
+
+**Make Room facility** at **602 Little Bourke Street** is a **$24.9 million**
+project converting a former council building into **50 studio apartments** for
+people experiencing chronic homelessness. Residents can stay up to 12 months with
+on-site health services and 24/7 front desk security.
+
+The **Phoenix Floor** is a dedicated 10-unit women's safety wing for residents who
+have experienced family violence or sexual assault.
+
+Source: https://www.melbourne.vic.gov.au/homelessness
+
+# 7.5a COMMUNITY FOOD SECURITY AND PEER SUPPORT
+
+Council delivers community lunches serving **1,600+ people** annually, distributing
+vouchers through **Queen Victoria Market and Coles**. Peer support workers with
+lived experience of homelessness act as translators between social workers and
+rough sleepers.
+
+Source: https://www.melbourne.vic.gov.au/helping-out-guide
+
+# 7.6a RATES HARDSHIP RELIEF AND ELIGIBILITY
+
+**Rates Financial Hardship Policy** supports residential owner-occupiers:
+- Applications via email to **rates@melbourne.vic.gov.au**
+- **Rate waivers** available ONLY to recipients of **JobSeeker** payments
+- Eligible applicants may have interest suspended, reduced, or waived
+
+Source: https://www.melbourne.vic.gov.au/rates-financial-hardship-policy
+
+# 7.7a ACCESSIBILITY AND AGED-CARE NAVIGATION PROGRAMS
+
+- **Hidden Disability Sunflower** — free pins, lanyards, and wristbands help staff
+  identify people needing extra support during emergencies or city visits.
+- **Connections Program** — guidance for older residents and carers navigating the
+  aged-care system and in-home support options.
+
+Source: https://www.melbourne.vic.gov.au/disability-access-and-inclusion
+
+# 7.8a SAFE CITY CAMERA NETWORK AND LIGHTING
+
+**Safe City Camera Network:**
+- **328 CCTV cameras** across CBD, Carlton, Docklands, and Southbank
+- Operated in partnership with Victoria Police for crime investigation and
+  emergency response
+- **Safe City CCTV Car** — mobile surveillance operating **10:00 p.m. – 6:00 a.m.**
+  **Thursday, Friday, and Saturday nights**
+
+**Lighting Investment:** $7 million (2024–2028) for critical lighting improvements
+in laneways and high-traffic areas.
+
+Source: https://www.melbourne.vic.gov.au/safe-city
+
+# 7.9a MIDWEEK MELBOURNE MONEY PROGRAM
+
+**Midweek Melbourne Money** is a **$5 million scheme** (part of the broader
+**$200 million Melbourne City Revitalisation Fund**) providing **30% rebates on
+city meals** for traders and residents, helping the hospitality sector recover from
+the COVID-19 pandemic.
+
+Source: https://www.melbourne.vic.gov.au/midweek-melbourne-money
+
+# 7.10a CLIMATE ADAPTATION AND STORMWATER HARVESTING
+
+**Planning Scheme Amendment C376** requires green infrastructure and sustainability
+measures in new developments to combat climate effects.
+
+**Stormwater Harvesting:** **Fitzroy Gardens** harvests up to **30 million litres
+per year** to maintain greenery during drought and extreme heat.
+
+Source: https://www.melbourne.vic.gov.au/climate-adaptation
+
+# ===== R8 ADDITIONS: INCLUSION, PARTICIPATION & COMMUNITY ENHANCEMENTS =====
+
+# 5.1a STOLEN GENERATIONS MARKER AND ABORIGINAL COMMUNITY GRANTS
+
+**Stolen Generations Marker Working Group** — an independent group of survivors,
+descendants, and Traditional Owners recommends the location and artist for a
+permanent commemorative marker, currently planned for **Peppercorn Lawn in
+Alexandra Gardens**.
+
+**Aboriginal Community Grants** — up to **$10,000** to not-for-profit
+organisations and schools for Aboriginal cultural and economic development projects.
+
+**YIRRAMBOI Festival** — biennial First Nations arts festival with **400+ creatives**
+across **40+ venues**, including the **Uncle Jack Charles Festival Hub**.
+
+Source: https://www.melbourne.vic.gov.au/aboriginal-melbourne
+
+# 5.2a FIRST NATIONS FREE VENUE ACCESS
+
+First Nations organisations have free room bookings at all city libraries and
+community hubs:
+- narrm ngarrgu Library and Family Services
+- Library at The Dock + Community Hub at The Dock
+- Kathleen Syme Library and Community Centre
+- Boyd Community Hub
+- City Library
+
+Source: https://www.melbourne.vic.gov.au/aboriginal-melbourne
+
+# 5.3a SENIORS PROGRAMS AND AGED-CARE NAVIGATION
+
+**South Yarra Senior Citizens Centre** — venue for engagement, with **monthly
+carers' walks** to support community connection.
+
+**My Aged Care Eligibility:**
+- **65+ years** for home-support services (housework, meal delivery)
+- **50+ for Aboriginal and Torres Strait Islander** people for equivalent services
+
+Source: https://www.melbourne.vic.gov.au/seniors
+
+# 5.4a YOUTH SERVICES AND YOUNG CREATIVES
+
+**SIGNAL Young Creatives Lab** (ages **14–25**) — funding and mentoring for
+emerging artists.
+
+**The Drum** — generalist youth programming focused on Aboriginal youth, LGBTIQA+
+individuals, and those in public housing.
+
+**Frontyard Youth Services** — crisis centre at **19 King Street**; integrated
+support for homelessness, health, and legal advice.
+
+Source: https://www.melbourne.vic.gov.au/youth
+
+# 5.5a MULTICULTURAL HUB AND LGBTIQA+ INCLUSION
+
+**Multicultural Hub** at **506 Elizabeth Street** — low-cost room hire managed by
+**AMES Australia**. The City of Melbourne is a **Refugee Welcome Zone** with
+**55%+ of residents born overseas**.
+
+**queerspace** — partnership for LGBTIQA+ carers support group and young queer
+people of colour programming via **The Drum**.
+
+Source: https://www.melbourne.vic.gov.au/multicultural
+
+# 5.6a ACCESSIBILITY AND CHANGING PLACES FACILITIES
+
+**Companion and Carer Cards** — recognised at Carlton Baths and North Melbourne
+Community Centre for free/discounted entry.
+
+**Changing Places** — **14 high-intensity accessible toilets** with hoists and
+change tables citywide, including narrm ngarrgu Library and Hamer Hall.
+
+**Autism Swim Certification** at Melbourne City Baths — staff trained to support
+neurodivergent swimmers.
+
+Source: https://www.melbourne.vic.gov.au/accessibility
+
+# 5.7a NEIGHBOURHOOD PARTNERS AND PRECINCT STRUCTURE
+
+Each of Melbourne's 10 neighbourhoods has a dedicated **Neighbourhood Partner**
+connecting residents with council services. Key precincts include:
+- **Southbank** — arts/entertainment with Melbourne Arts Precinct and Boyd Community Hub
+- **West Melbourne** — heritage cottages and high apartment-living population
+- **Docklands** — modern waterfront with The Dock community hub
+- **Carlton** — Carlton Gardens (World Heritage) and Kathleen Syme Library
+
+Source: https://www.melbourne.vic.gov.au/neighbourhoods
+
+# 5.8a COMMUNITY CONSULTATION AND PLANNING AMENDMENTS
+
+**Participate Melbourne** is the primary digital platform for community consultation.
+
+**Current Consultations:**
+- **Draft Budget 2026–27**
+- **Macaulay Urban Renewal Precinct (Amendment C417)**
+- **Municipal Planning Strategy (Amendment C432)**
+
+Source: https://www.melbourne.vic.gov.au/participate-melbourne
+
+# 5.10a FREE COMMUNITY HEALTH AND WELLBEING PROGRAMS
+
+**Wellbeing and Connection Map** — interactive tool to find community initiatives
+and hobby groups, reducing isolation.
+
+**Immunisation Clinics** — free routine vaccines; school-based programs for
+**Years 7 and 10**.
+
+Source: https://www.melbourne.vic.gov.au/health-and-wellbeing
+
+# ===== R9 ADDITIONS: EXTERNAL RELATIONSHIPS ENHANCEMENTS =====
+
+# 9.1a STATE GOVERNMENT MINISTERIAL PARTNERSHIPS
+
+The Council operates in close partnership with the Victorian Government through
+key ministerial interfaces:
+
+- **Minister for Housing (Harriet Shing)** — collaboration on **Make Room**
+  supportive housing project
+- **Minister for Local Government (Melissa Horne)** — support for the
+  **Living Libraries Infrastructure Program** (≈$1.2 million for narrm ngarrgu library)
+- **Minister for Planning** — Council refers major amendments (e.g., **C415, C366**)
+  for final approval
+
+**Melbourne City Revitalisation Fund** — **$200 million** Victorian Government
+investment supporting community recovery and activation initiatives.
+
+Source: https://www.melbourne.vic.gov.au/government-relationships
+
+# 9.2a VICTORIA POLICE AND SAFE CITY PARTNERSHIP
+
+**Safe City Camera Network** — **328 CCTV cameras** across CBD, Carlton, Docklands,
+and Southbank, operated in partnership with Victoria Police.
+
+**Safe City CCTV Car** — mobile surveillance operating **Thursday, Friday, Saturday
+10:00 p.m. – 6:00 a.m.** for targeted enforcement and crime prevention.
+
+Source: https://www.melbourne.vic.gov.au/safe-city
+
+# 9.3a UNIVERSITY PARTNERSHIPS AND STUDENT PLACEMENTS
+
+**University of Melbourne** — Councillor Andrew Rowse previously built research
+translation and startup training programs, including the **Melbourne Entrepreneurial
+Centre**.
+
+**RMIT University** — received **$10,000 grant** from Business Event Sponsorship
+Program for the **Future/Inclusive Festival**.
+
+**Student Placements** — **12 university students** held placements with Council
+teams in 2025, applying knowledge of food systems and public health to local policy.
+
+Source: https://www.melbourne.vic.gov.au/university-partnerships
+
+# 9.4a EXPERIENCE MELBOURNE 2028 TOURISM STRATEGY
+
+**Experience Melbourne 2028** strategy ensures continued growth of the visitor
+economy through industry consultation and global appeal enhancement.
+
+**Visitor Economy**: $12.6 billion in spending for the year ending September 2024.
+
+Source: https://www.melbourne.vic.gov.au/experience-melbourne
+
+# 9.5a PUBLIC TRANSPORT AND ACCESSIBILITY PARTNERSHIPS
+
+**Travellers Aid** — partnership enabling people with diverse needs to navigate the
+Victorian public transport system and major CBD stations.
+
+Source: https://www.melbourne.vic.gov.au/transport-accessibility
+
+# 9.7a DISABILITY ADVISORY PARTNERSHIPS
+
+**Amplify Access pilot** — fed by the Disability Advisory Committee to improve city
+accessibility.
+
+**Munro Library** design honours First Nations knowledge systems through partnership
+with the **Aboriginal Melbourne Portfolio**.
+
+Source: https://www.melbourne.vic.gov.au/accessibility-partnerships
+
+# 9.8a CULTURAL INSTITUTION PARTNERSHIPS
+
+**Wurundjeri Corporation** partnered with the **State Library of Victoria** for the
+**"Beruk" exhibition**, which received a **ganbu guljin Award** recognizing
+excellence in First Nations cultural programming.
+
+**Melbourne Symphony Orchestra (MSO)** and **National Gallery of Victoria (NGV)** are
+key cultural partners defining the Melbourne experience for visitors.
+
+Source: https://www.melbourne.vic.gov.au/cultural-partnerships
+
+# 9.10a DEVELOPMENT PARTNERS
+
+**Lendlease** — major partner delivering the **$1.7 billion Gurrowa Place**
+mixed-use development at Queen Victoria Market Southern Precinct.
+
+**PDG Corporation** — delivering **48 affordable housing units** as part of the
+**Munro development**.
+
+Source: https://www.melbourne.vic.gov.au/development-partnerships
+
+# ===== R10 ADDITIONS: NEIGHBOURING COUNCILS & CROSS-MUNICIPAL ENHANCEMENTS =====
+
+# 9.14a PLANNING REFERRAL WITH STONNINGTON
+
+**TP-2021-245** — planning referral for 47 Arnold Street, South Yarra, coordinated
+with Stonnington council boundaries.
+
+Source: https://www.melbourne.vic.gov.au/planning-referrals
+
+# 9.15a MERRI-BEK COORDINATION
+
+**Amendment C444** — Parkville Heritage Review on the Merri-bek interface.
+
+**Brunswick level crossing removals** — major Merri-bek boundary coordination project.
+
+Source: https://www.melbourne.vic.gov.au/merri-bek-coordination
+
+# 9.23a CROSS-MUNICIPAL EMERGENCY AND TREE RECOVERY
+
+**Municipal Emergency Management Plan (MEMP)** — collaborative framework involving
+multiple government agencies for coordinated city-wide crisis response.
+
+**Revival** — Urban Tree Recovery operator located less than 2 kilometres from CBD,
+working with multiple councils on fallen-tree reuse and community engagement.
+
+**Greenline Project** — delivered in partnership with the **Australian Government**,
+revitalizing the north bank of the Yarra River (Birrarung).
+
+**Gardens for Wildlife Victoria** — cross-municipal affiliate program for residents
+creating nature-friendly gardens.
+
+Source: https://www.melbourne.vic.gov.au/cross-municipal-partnerships
+
+
+# ===== BONUS FACTS FROM CONFLICT RESOLUTION #1 =====
+
+# PARKING CONTEXT AND CITY POPULATION
+
+The City of Melbourne experiences massive daily foot traffic and demand for parking.
+On an average weekday, over **900,000 people** are in the city (residents, workers,
+students, tourists). The municipality covers **37 km²** with **159,000 residents**
+across **102,000 residences**.
+
+**Kerbside Parking Allocation:** Of the approximately 23,000 total kerbside spaces,
+**17,000 are allocated to car parking**. Kerbside parking represents approximately
+**4% of total street space**, with the remainder allocated to cycling, pedestrian,
+public transport, and loading zones.
+
+**Off-Street Parking:** Approximately **~200,000 off-street parking spaces** exist
+across the municipality (in commercial buildings, car parks, and private facilities).
+
+Source: https://www.melbourne.vic.gov.au/parking
+
